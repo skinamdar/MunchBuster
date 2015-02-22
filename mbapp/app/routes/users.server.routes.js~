@@ -20,9 +20,6 @@ module.exports = function(app) {
 			failureFlash: true
 		}));
 
-	app.route('/delivery').get(users.renderLogin);
-
-
 	app.get('/logout', users.logout);
 
 	app.get('/oauth/facebook', passport.authenticate('facebook', {
