@@ -69,7 +69,7 @@ exports.renderSubmitted = function(req, res, next){
 	return res.render('submitted');	
 }
 
-exports.renderAboutUs) = function(req, res, next){
+exports.renderAboutUs = function(req, res, next){
 	return res.render('aboutus');	
 }
 
