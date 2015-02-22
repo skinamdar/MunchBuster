@@ -3,9 +3,23 @@
 	margin-bottom: 1em;
 }
 
+body{
+	background-image:url('img/wallpaper.png');
+}
+
+label{
+	font-size:1.5em;
+	color:#484c51;
+}
+
 #Input
 {
+	margin-top:3em;
 	margin-bottom: 5em;
+}
+
+.page-title{
+	text-align:center;
 }
 
 #me
@@ -15,11 +29,14 @@
 	font-size: 2em;
 }
 
-
-#facebook_button_submit_button 
-{
-background-image: url("Facebook-icon.png");
-margin-top: 3em;
-
+.page-top{
+	text-align:center;
 }
 
+.logo-form{
+	margin-bottom:1.5em;
+}
+
+.input-text{
+	font-size:1.5em;
+}

@@ -78,8 +78,8 @@ hr{
 	margin-top:3em;
 	background-color:#f7f3d7;
 	border-radius:1em;
-	border-style:dotted;
-	border-width:0.25em;
+	border-style:dashed;
+	border-width:1px;
 	border-color:#91a4bc;
 }
 
