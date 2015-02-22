@@ -1,0 +1,76 @@
+body{
+	margin:0;
+	padding:0;
+	width:100%;
+	background-color:#e8e2aa;
+	font-family:'Slabo 27px',Georgia,serif;
+}
+
+h1,h2,h3,h4,h5{
+	font-family:'Fjalla One',sans-serif;
+	color:#484c51;
+}
+
+h4{
+	font-size:2em;
+}
+
+p{
+	font-size:1.5em;
+	color:#484c51;
+}
+
+.button{
+	font-family:'Slabo 27px',Georgia,serif;
+	font-size:1em;
+	font-weight:bold;
+	letter-spacing:.075em;
+}
+
+#logo{
+	padding-top:0.25em;
+}
+
+#landing{
+	padding-top:3em;
+}
+
+#landing-img{
+	float:left;
+	width:60%;
+}
+
+#landing h1{
+	text-align:center;
+	font-family:'Fjalla One',sans-serif;
+	/*text-transform:uppercase;*/
+	font-size:2.5em;
+	float:right;
+	letter-spacing:.03em;
+	width:40%;
+}
+
+h1 em{
+	font-family:'Slabo 27px',Georgia,serif;
+	font-size:1em;
+}
+
+hr{
+	border-width:0px;
+}
+
+.button{
+	background-color:#d14b4b;
+}
+
+.panel{
+	background-color:#f7f3d7;
+	border-radius:1em;
+	border-style:dotted;
+	border-width:0.25em;
+	border-color:#91a4bc;
+}
+
+.top-bar{
+  background-color: #d14b4b;
+}

@@ -4,8 +4,8 @@ module.exports = {
 	port: port,
 	db: 'mongodb://localhost/todos',
 	facebook: {
-		clientID: '513828288756645',
-		clientSecret: '2d7cc991efddb864e9af61f307980b9a',
+		clientID: '340821032777128',
+		clientSecret: '7c2e5e5eae14524053daa572f4c44c39',
 		callbackURL: 'http://localhost:'+ port +'/oauth/facebook/callback'
 	},
 	twitter: {
