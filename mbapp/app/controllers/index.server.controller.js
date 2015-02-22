@@ -3,4 +3,6 @@ exports.render = function(req, res) {
     	title: 'MunchBusters',
     	user: req.user ? req.user.username : ''
     });
+
+    //res.render('delivery');
 };

@@ -1,0 +1,72 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MunchBusters | Munch</title>
+	<link href='http://fonts.googleapis.com/css?family=Fjalla+One|Slabo+27px' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    
+        <div class="row">
+        
+		<div class="large-3 columns">
+          <h1><a href="index.html"><img id="logo" src="img/logo.png"/></a></h1>
+        </div>
+        <div class="large-9 columns">
+          <ul class="right button-group">
+          <li><a href="munch.html" class="button">Munchers</a></li>
+          <li><a href="deliver.html" class="button">MunchBusters</a></li>
+          <li><a href="#" class="button">About Us</a></li>
+          <li><a href="#" class="button">Log Out</a></li>
+          </ul>
+         </div>
+       </div> 
+	
+	<div class="row">
+		<div class="large-12 columns">
+			<div class="page-title">
+				<h1>Be a Muncher.</h1>
+			</div>
+		</div>
+	  </div>
+	  
+	  <div class="row" id="landing">
+			<div class="large-6 columns">
+			<div id="slider" id="main-description">
+				<img src="img/munchbuster-munch.png"/>
+			</div>
+			</div>
+				<div class="large-6 columns">
+					<div>
+						
+						<div id="Input">
+							  <p>From:
+							  <input class="form-text" type="text" ng-model="from" placeholder="Chipotle"></p>
+							  <p ng-bind="from"></p>
+							  <p>To:
+							  <input class="form-text" type="text" ng-model="To" placeholder="South Davis"></p>
+							  <p ng-bind="to"></p>
+							  <p>Preferred Delivery Fee ($):
+							  <input class="form-text" type="text" ng-model="money" placeholder="4.50"></p>
+							  <p ng-bind="money"></p>
+							  <p>Comments (Optional):
+							  <input class="form-text" type="text" ng-model="comments" placeholder="You da real MVP <3"></p>
+							  <p ng-bind="comments"></p>
+							  <div class="small-7 small-centered columns">
+							<a href="submitted.html" class="button radius">Submit</a>
+							</div>
+							</div>
+						
+					 
+					</div>
+				</div>
+			</div>
+  
+  </body>
+</html>
+

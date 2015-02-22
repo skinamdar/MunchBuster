@@ -43,22 +43,30 @@ exports.renderRegister = function(req, res, next) {
 		});
 	}
 	else {
-		return res.redirect('/deliver');
+		return res.redirect('/');
 	}
 };
 
 exports.renderDeliveryForm = function(req, res, next){
-	if (!req.user) {
+	/* if (!req.user) {
 		res.render('register', {
 		title: 'Register Form',
 		messages: req.flash('error')
 		});
 	}
-	else {
-		return res.redirect('/');
+	else*/ {
+		return res.render('delivery');
 	}
 	
 
+}
+
+exports.renderMunchForm = function(req, res, next){
+	return res.render('munch');
+}
+
+exports.renderSubmitted = function(req, res, next){
+	return res.render('submitted');	
 }
 
 exports.register = function(req, res, next) {

@@ -20,8 +20,12 @@ module.exports = function(app) {
 			failureFlash: true
 		}));
 
-	app.route('/delivery').get(users.renderLogin);
+	app.route('/delivery').get(users.renderDeliveryForm);
 
+	app.route('/munch').get(users.renderMunchForm); 	
+
+	app.route('/submitted').get(users.renderSubmitted);
+	
 
 	app.get('/logout', users.logout);
 
