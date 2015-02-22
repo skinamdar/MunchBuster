@@ -55,7 +55,7 @@ exports.renderDeliveryForm = function(req, res, next){
 		});
 	}
 	else*/ {
-		return res.redirect('delivery');
+		return res.render('delivery');
 	}
 	
 
