@@ -38,7 +38,7 @@
         </div>
         <div class="large-9 columns">
           <ul class="right button-group">
-          <li><a href="munch.html" class="button">Munchers</a></li>
+          <li><a href="/munch" class="button">Munchers</a></li>
           <li><a href="/delivery" class="button">MunchBusters</a></li>          
 	<li><a href="#" class="button">About Us</a></li>
 

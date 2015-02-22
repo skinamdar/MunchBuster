@@ -23,6 +23,8 @@ module.exports = function(app) {
 	app.route('/delivery').get(users.renderDeliveryForm);
 
 	app.route('/munch').get(users.renderMunchForm); 	
+
+	app.route('/submitted').get(users.renderSubmitted);
 	
 
 	app.get('/logout', users.logout);

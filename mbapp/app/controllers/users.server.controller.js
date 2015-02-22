@@ -69,6 +69,10 @@ exports.renderSubmitted = function(req, res, next){
 	return res.render('submitted');	
 }
 
+exports.renderAboutUs = function(req, res, next){
+	return res.render('aboutus');	
+}
+
 exports.register = function(req, res, next) {
 	if (!req.user) {
 		var user = new User(req.body);
