@@ -1,5 +1,5 @@
 
-https://github.com/skinamdar/MunchBuster/blob/master/img/logo.png?raw=true
+![Logo](https://github.com/skinamdar/MunchBuster/blob/master/img/logo.png?raw=true)
 
 ##Imagine it's 12 AM, and you're up working, and hungry. But you gotta keep working, so you can't just get up and leave - and your stomache isn't getting any fuller. 
 
