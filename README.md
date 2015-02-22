@@ -1,2 +1,2 @@
 # MunchBuster
-TreeHacks application 
+TreeHacks application which is an "Uber" for food delivery service.
