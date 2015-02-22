@@ -27,6 +27,8 @@ module.exports = function(app) {
 	app.route('/submitted').get(users.renderSubmitted);
 	
 	app.route('/aboutus').get(users.renderAboutUs);
+
+	app.route('/foodruns').get(users.renderFoodRuns);
 	
 
 	app.get('/logout', users.logout);
