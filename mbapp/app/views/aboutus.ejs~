@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MunchBusters | About</title>
+    <title>MunchBusters | Success</title>
 	<link href='http://fonts.googleapis.com/css?family=Fjalla+One|Slabo+27px' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -27,23 +27,19 @@
          </div>
        </div> 
 
-<div class="row">
-<div class="large-12 columns">
-<div style="text-align:center">
-<h1 style="margin-top:2em;">Imagine it's 12 AM, and you're up working, and hungry. But you gotta keep working, so you can't just get up and leave - and your stomach isn't getting any fuller.</h1>
 
-<p style="margin-top:1em;">Are you interested in having In-N-Out delivered by a fellow student when you have been unable to go yourself?
+Imagine it's 12 AM, and you're up working, and hungry. But you gotta keep working, so you can't just get up and leave - and your stomache isn't getting any fuller.
+
+Are you interested in having In-N-Out delivered by a fellow student when you have been unable to go yourself?
 
 Want to feel satisfaction in life by making a Chipotle run for sleep deprived folks in the 24 hr study room?
 
-Or want to get a free coffee sample when going to Trader Joes to get some cookie butter ice cream for those stressed during midterms/finals week?</p>
+Or want to get a free coffee sample when going to Trader Joes to get some cookie butter ice cream for those stressed during midterms/finals week?
 
-<p style="font-size:2.5em;">Enter: <em>MunchBusters</em>.</p>
+Enter: MunchBusters.
 
-<p><em>MunchBusters</em> is a food delivery service where people who want food from any, or a particular, location (Munchers) can interact with other people who can deliver (MunchBusters) to arrange a food delivery. Prices for the actual service are negotiable among the two parties.</p>
-</div>
-</div>
-</div>
+MunchBusters is a food delivery service where people who want food from any, or a particular, location (Munchers) can interact with other people who can deliver (Busters) to arrange a food delivery. Prices for the actual service are negotiable among the two parties.
+
 
 </body>
 </html>
