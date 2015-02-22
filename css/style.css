@@ -3,6 +3,7 @@ body{
 	padding:0;
 	width:100%;
 	background-color:#e8e2aa;
+	background-image:url("../img/wallpaper.png");
 	font-family:'Slabo 27px',Georgia,serif;
 }
 
@@ -27,8 +28,20 @@ p{
 	letter-spacing:.075em;
 }
 
+#main-description{
+	margin:0 auto;
+}
+
 #logo{
 	padding-top:0.25em;
+}
+
+#sign-up{
+	margin-top:1em;
+	margin-left:-5em;
+	float:right;
+	font-size:1.5em;
+	width:15em;
 }
 
 #landing{
@@ -41,18 +54,16 @@ p{
 }
 
 #landing h1{
-	text-align:center;
+	/*text-align:center;*/
 	font-family:'Fjalla One',sans-serif;
-	/*text-transform:uppercase;*/
 	font-size:2.5em;
 	float:right;
 	letter-spacing:.03em;
 	width:40%;
 }
 
-h1 em{
-	font-family:'Slabo 27px',Georgia,serif;
-	font-size:1em;
+em{
+	color:#5f81aa;
 }
 
 hr{
@@ -64,6 +75,7 @@ hr{
 }
 
 .panel{
+	margin-top:3em;
 	background-color:#f7f3d7;
 	border-radius:1em;
 	border-style:dotted;
