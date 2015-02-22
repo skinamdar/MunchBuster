@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+		<link rel="stylesheet" href="foundation.css" />
+		<link rel="stylesheet" href="style.css" />
+		 <script src="jmodernizr.js"></script>
+	</head>
+
+	<body>
+	    <script>
+			  window.fbAsyncInit = function() {
+				FB.init({
+				  appId      : 'your-app-id',
+				  xfbml      : true,
+				  version    : 'v2.1'
+				});
+			  };
+
+			  (function(d, s, id){
+				 var js, fjs = d.getElementsByTagName(s)[0];
+				 if (d.getElementById(id)) {return;}
+				 js = d.createElement(s); js.id = id;
+				 js.src = "//connect.facebook.net/en_US/sdk.js";
+				 fjs.parentNode.insertBefore(js, fjs);
+			   }(document, 'script', 'facebook-jssdk'));
+		</script>
+		
+		<nav class="top-bar">
+			<ul class="title-area">
+				<li class="name">
+					 <h1><a href="#">Welcome! </a></h1>
+				</li>
+				<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a>
+				</li>
+			</ul>
+			<section class="top-bar-section">
+				<ul class="right">
+					<li class="divider"></li>
+					<li class="active"><a href="#">View Munches and Busters</a></li>
+					<li class="divider"></li>
+					<li><a href="#">About</a></li>
+					<li class="divider"></li>
+					<li><a href="#">Login</a></li>
+					<li class="divider"></li>
+				</ul>
+			</section>
+		</nav>
