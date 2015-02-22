@@ -20,8 +20,8 @@ module.exports = function(app) {
 			failureFlash: true
 		}));
 
-	app.route('/delivery').get(users.renderLogin);
-
+	app.route('/delivery').get(users.renderDeliveryForm); 
+	
 
 	app.get('/logout', users.logout);
 

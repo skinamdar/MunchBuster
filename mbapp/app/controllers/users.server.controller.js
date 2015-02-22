@@ -43,19 +43,19 @@ exports.renderRegister = function(req, res, next) {
 		});
 	}
 	else {
-		return res.redirect('/deliver');
+		return res.redirect('/');
 	}
 };
 
 exports.renderDeliveryForm = function(req, res, next){
-	if (!req.user) {
+	/* if (!req.user) {
 		res.render('register', {
 		title: 'Register Form',
 		messages: req.flash('error')
 		});
 	}
-	else {
-		return res.redirect('/');
+	else*/ {
+		return res.render('delivery');
 	}
 	
 
