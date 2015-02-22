@@ -20,7 +20,9 @@ module.exports = function(app) {
 			failureFlash: true
 		}));
 
-	app.route('/delivery').get(users.renderDeliveryForm); 
+	app.route('/delivery').get(users.renderDeliveryForm);
+
+	app.route('/munch').get(users.renderMunchForm); 	
 	
 
 	app.get('/logout', users.logout);

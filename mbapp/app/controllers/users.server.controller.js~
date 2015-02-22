@@ -61,6 +61,11 @@ exports.renderDeliveryForm = function(req, res, next){
 
 }
 
+exports.renderMunchForm = function(req, res, next){
+	return res.render('munch');
+}
+
+
 exports.register = function(req, res, next) {
 	if (!req.user) {
 		var user = new User(req.body);

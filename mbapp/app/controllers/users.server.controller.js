@@ -65,6 +65,9 @@ exports.renderMunchForm = function(req, res, next){
 	return res.render('munch');
 }
 
+exports.renderSubmitted = function(req, res, next){
+	return res.render('submitted');	
+}
 
 exports.register = function(req, res, next) {
 	if (!req.user) {
